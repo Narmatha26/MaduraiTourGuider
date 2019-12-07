@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4C3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_attractions">
+
+        <TextView
+            android:id="@+id/attractions"
+            style="@style/CategoryStyles"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_attractions" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants">
+
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/CategoryStyles"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_restaurants" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_publicPlaces">
+
+        <TextView
+            android:id="@+id/publicPlaces"
+            style="@style/CategoryStyles"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_publicPlaces" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_events">
+
+        <TextView
+            android:id="@+id/events"
+            style="@style/CategoryStyles"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_events" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

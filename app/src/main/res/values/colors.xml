@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CDDC39</color>
+
+    <color name="colorPrimaryDark">#AFB42B</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="category_attractions">#ff3399</color>
+
+    <color name="category_restaurants">#33cc33</color>
+
+    <color name="category_publicPlaces">#ff6666</color>
+
+    <color name="category_events">#66ccff</color>
+</resources>
